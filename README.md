@@ -10,3 +10,5 @@ The left side of the patch is designated for receiving data in Max/MSP. This set
 1) Connect the Arduino to the computer using the USB port.
 2) Open the Arduino Script "MPR121_Touch" and upload it to the Arduino.
 3) Open the Max patch "Capacitive Touch Shield_VST" and activate the toggle to receive data from the Arduino. The numeric data can be utilized for various purposes, but in this patch, it is configured to trigger sounds in VST.
+
+Here is the video using Arduino, touch sensor, and Max/MSP: https://youtu.be/0kThctloaNg?si=speW7WxlV4m18dfp
