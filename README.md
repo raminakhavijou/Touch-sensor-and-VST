@@ -8,5 +8,5 @@ This is a Max/MSP patch that gathers data from an Arduino, which reads informati
 
 The left side of the patch is designated for receiving data in Max/MSP. This setting is configured as a default, compatible with most Arduino defaults. The Arduino script is also provided, requiring uploading to the Arduino board through the USB port. This script is a default Arduino configuration compatible with a wide range of Arduino boards. Follow these steps:
 1) Connect the Arduino to the computer using the USB port.
-2) Open the Arduino Script and upload it to the Arduino.
-3) Open the Max patch and activate the toggle to receive data from the Arduino. The numeric data can be utilized for various purposes, but in this patch, it is configured to trigger sounds in VST.
+2) Open the Arduino Script "MPR121_Touch" and upload it to the Arduino.
+3) Open the Max patch "Capacitive Touch Shield_VST" and activate the toggle to receive data from the Arduino. The numeric data can be utilized for various purposes, but in this patch, it is configured to trigger sounds in VST.
